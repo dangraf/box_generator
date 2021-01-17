@@ -3,6 +3,9 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"OneLine": "00_core.ipynb",
+         "line2segmented_pointlist": "00_core.ipynb",
+         "segments_to_tabs": "00_core.ipynb",
+         "tabs2holes": "00_core.ipynb",
          "Side": "01_generator.ipynb",
          "gen_points": "01_generator.ipynb",
          "BoxGen": "01_generator.ipynb"}

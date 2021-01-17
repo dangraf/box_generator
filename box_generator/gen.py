@@ -9,6 +9,7 @@ import svgwrite
 import shapely
 from shapely.geometry import LineString, Point
 from  functools import partial
+from .core import *
 
 # Cell
 def _get_ax(line):
