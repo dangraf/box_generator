@@ -7,8 +7,7 @@ index = {"OneLine": "00_core.ipynb",
          "gen_points": "01_generator.ipynb",
          "BoxGen": "01_generator.ipynb"}
 
-modules = ["primitives.py",
-           "core.py"]
+modules = ["core.py"]
 
 doc_url = "https://dangraf.github.io/box_generator/"
 
