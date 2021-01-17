@@ -7,6 +7,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Cell
+def _get_ax(line):
+    """ returns the direction of the line
+    [param] line: tuple or np.array of length 4, where 0,1 is point 1 and 3,4 is point 2
+    """
+    if np.isclose(line[0],line[2]) and line[1] != line[3]:
+        return 1
+    else:
+        return 0
+
+# Cell
 class OneLine(np.ndarray):
     def __init__(self, a):
         super().__init__()

@@ -3,6 +3,14 @@
 __all__ = ['Side', 'gen_points', 'BoxGen']
 
 # Cell
+import numpy as np
+import matplotlib.pyplot as plt
+import svgwrite
+import shapely
+from shapely.geometry import LineString, Point
+from  functools import partial
+
+# Cell
 def _get_ax(line):
     """ returns the direction of the line
     [param] line: tuple or np.array of length 4, where 0,1 is point 1 and 3,4 is point 2
