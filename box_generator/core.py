@@ -18,6 +18,8 @@ def _get_ax(line):
 
 # Cell
 class OneLine(np.ndarray):
+    """
+    """
     def __init__(self, a):
         super().__init__()
         self.ax=_get_ax(self)
