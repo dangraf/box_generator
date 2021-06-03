@@ -4,7 +4,10 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"OneLine": "00_boxprimitives.ipynb",
          "LineObj": "00_boxprimitives.ipynb",
-         "plot_lines": "00_boxprimitives.ipynb"}
+         "plot_lines": "00_boxprimitives.ipynb",
+         "Side": "01_generator.ipynb",
+         "gen_points": "01_generator.ipynb",
+         "BoxGen": "01_generator.ipynb"}
 
 modules = ["lineprims.py",
            "gen.py"]
