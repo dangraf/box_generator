@@ -2,15 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"OneLine": "00_core.ipynb",
-         "line2segmented_pointlist": "00_core.ipynb",
-         "segments_to_tabs": "00_core.ipynb",
-         "tabs2holes": "00_core.ipynb",
-         "Side": "01_generator.ipynb",
-         "gen_points": "01_generator.ipynb",
-         "BoxGen": "01_generator.ipynb"}
+index = {"OneLine": "00_boxprimitives.ipynb",
+         "LineObj": "00_boxprimitives.ipynb",
+         "plot_lines": "00_boxprimitives.ipynb"}
 
-modules = ["core.py",
+modules = ["lineprims.py",
            "gen.py"]
 
 doc_url = "https://dangraf.github.io/box_generator/"
