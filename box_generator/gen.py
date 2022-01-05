@@ -6,6 +6,7 @@ __all__ = ['Side', 'gen_points', 'BoxGen']
 import numpy as np
 import matplotlib.pyplot as plt
 import svgwrite
+from svgwrite import mm
 import shapely
 from shapely.geometry import LineString, Point
 from  functools import partial
