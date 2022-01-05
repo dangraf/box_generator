@@ -1,7 +1,8 @@
 {
   "box_generator": {
     "Overview": "/",
-    "module name here": "core.html",
+    "Title": "boxgen.html",
+    "Line Primitives": "boxprimitives.html",
     "Inner walls + Holes example": "generator.html"
   }
 }
